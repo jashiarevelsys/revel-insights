@@ -86,11 +86,11 @@ p {
 
 .two-up {
 	background-color: #f4f4f4;
-	.blurb {
+	/*.blurb {
 		&:first-of-type {
 			padding: 0px 55px !important;
 		}
-	}
+	}*/
 	h1 {
 		padding-top: 70px;
 		font-size: 18px;
@@ -102,6 +102,12 @@ p {
    	}
    	p.last-p-style {
     	padding-bottom: 60px;
+    }
+    .last-blurb {
+    	padding-left: 20px;
+    }
+    p.p-first-space {
+    	margin-top: 34px;
     }
 
 }
@@ -115,8 +121,11 @@ p {
 			margin-top: 50px;
 		}
 		&:last-of-type {
-			margin: 25px 0px 35px;
+			margin: 25px auto;
 		}
+	}
+	h1.the-cta {
+		max-width: 380px;
 	}
 }
 
@@ -146,8 +155,21 @@ p {
 			font-size: 25px;
 		}
 	}
-	.two-up .blurb:first-of-type {
+	.two-up p.p-first-space {
+		margin-top: inherit;
+
+	} 
+	.footer .social .social-icons {
+	    margin-left: 10px;
+	    padding-top: 0px;
+	    padding-left: 15px;
+	}
+	.footer .social .first {
+		padding-left: 38px;
+	}
+
+/*	.two-up .blurb:first-of-type {
     	padding-left: 16px !important;
     	padding-right: 16px !important;	
     }
-}
+*/}
